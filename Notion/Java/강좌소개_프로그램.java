@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class 강좌소개_프로그램 {
     public static void main(String[] args) {
         Menu1();
     }
