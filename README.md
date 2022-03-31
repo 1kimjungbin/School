@@ -1,1 +1,1 @@
-# Spring-afterSchool
+# 학교 전공 수업 / 방과 후 깃허브
