@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .text {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    
+    <!--
+    <table class="table_line">
+        <h1>제주 이색 여행지</h1>
+
+        <h2>야외 텐트를 닮은 건축물 "테쉬폰"</h2>
+        <p>
+            아일랜드 출신 임피제 신부가 1954년 제주에 오면서 목장 숙소로 짓기 시작한 후 사료공장,<br>
+            성당으로 활용됐습니다.</p>
+            <p>제주에서 점차 다른 지방으로 보급됐지만 현재 제주에만 건축물이 남아 있는데,<br>
+            국내 근현대 건축사의 한 페이지를 보여주는 가치를 지닌다고 전문가들은 평가합니다.</p>
+        <hr>
+        <blockquote>
+            성이시돌목장은 제주특별자치도 제주시 한림읍 금악리에 있는 목장이다.<br>
+            특히 이시돌목장은 제주 지역 최초의 전기업목장(全企業牧場)으로<br>
+            1961년 11월 말 제주시 한림읍 금악리에 세워 양돈 사업을 실시하였으며 면양을 사육하였던 것으로 알려져 있다.<br>
+            이시돌목장의 특색있는 건축양식으로 테쉬폰도 유명하다. (출처:향토문화전자대전)<br>
+        </blockquote>
+    </table>
+-->
+
+<!--
+    <h1>야외 텐트를 닮은 건축물 <mark>"테쉬폰"</mark></h1>
+    <br>
+    <p>
+        아일랜드 출신 임피제 신부가 1954년 제주에 오면서 목장 숙소로 짓기 시작한 후 사료공장, 성당으로 활용됐습니다.
+        제주에서 점차 다른 지방으로 보급됐지만 현재 제주에만 건축물이 남아 있는데,
+        <span class="text">국내 근현대 건축사의 한 페이지를 보여주는 가치를 지닌다고 전문가들은 평가합니다</span>
+    </p>
+-->
+
+    <!--<p>최근엔 <b>디지털 세상</b>을 살아가기 위한 <em style="color: orange;">기본 상식</em>으로 <mark>코딩 교육</mark>이 시행되고 있다.</p>-->
+
+    <!--
+    <h1>관람 안내 전화</h1>
+    <p>한국관광공사에서는 전국의 . . . .</p>
+    <p>1330에는 해당 지역의 지도와 관광 가이드북 .. . . .</p>
+    <ul>
+        <li>일반전화 : 1330</li>
+        <li>휴대전화 : 064-1330</li>
+    </ul>
+    -->
+<!--
+    <h1>1박 2일 가족여행 코스
+    </h1> 
+    <ul>
+        <li>1일차
+            <ol type="a">
+                <li>해녀박물관</li>
+                <li>낚시게임</li>
+            </ol>
+            <li>2일차
+                <ol type="a" start="3">
+                    <li>용눈이오름</li>
+                    <li>만장굴</li>
+                    <li>카약체험</li>
+                </ol>
+            </li>
+        </li>
+    </ul>
+    -->
+    <!--
+    <h1>제주 올레</h1>
+    <dl>
+        <dt>올레 1코스</dt>
+        <dd>코스 : 시흥 초등학교 옆 - 광치기 해변</dd>
+        <dd>거리 : 14.6km</dd>
+        <dd>난이도 : 중</dd>
+        <dt>올레 2코스</dt>
+        <dd>코스 : 광치기 해변 - 온평 포구</dd>
+        <dd>거리 : 14.5km</dd>
+        <dd>난이도 : 중</dd>
+    </dl>
+    -->
+    <!--
+    <table>
+        <tr>
+            <td>내용</td>
+            <td>내용</td>
+            <td>내용</td>
+
+        </tr>
+        <tr>
+            <td>내용</td>
+            <td>내용</td>
+            <td>내용</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>제목 셀</th>
+            <td>1행 2열</td>
+            <td>1행 3열</td>
+        </tr>
+        <tr>
+            <th>제목 셀</th>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>제목 셀</th>
+            <th>1행 2열</th>
+            <th>1행 3열</th>
+        </tr>
+        <tr>
+            <th>제목 셀</th>
+            <th>2행 2열</th>
+            <th>2행 3열</th>
+        </tr>
+    </table>
+    -->
+
+    <table>
+        <caption>
+            <strong>Modern browser</strong>
+            <p>국내에서 자주 사용하는 모던 브라우저</p>
+        </caption>
+    </table>
+</body>
+</html>
