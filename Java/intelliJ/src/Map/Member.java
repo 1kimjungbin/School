@@ -10,9 +10,6 @@ public class Member {
         this.name = name;
     }
 
-    public void setMemberId(int memberId) {
-        MemberId = memberId;
-    }
 
     public int getMemberId() {
         return MemberId;
@@ -24,5 +21,11 @@ public class Member {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+
+    public String toString() {
+        return name + " 회원님의 아이디는 " + MemberId + " 입니다.";
     }
 }
