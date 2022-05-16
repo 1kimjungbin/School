@@ -5,12 +5,6 @@ import java.util.ArrayList;
 public class ArrayListTest {
     public static void main(String[] args) {
 
-        ArrayList<String> strs = new ArrayList<>();
-        ArrayList<Integer> nums = new ArrayList<Integer>();
-        nums.add(1);
-        nums.add(2);
-        nums.add(3);
-
         ArrayList<Book> library = new ArrayList<Book>();
 
         library.add(new Book("태백산맥", "조정래"));
