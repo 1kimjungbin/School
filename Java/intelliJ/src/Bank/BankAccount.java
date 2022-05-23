@@ -7,6 +7,10 @@ public class BankAccount {
         return balance;
     }
 
+    public BankAccount(int balance) {
+        this.balance = this.balance;
+    }
+
     public void setBalance(int balance) {
         this.balance = balance;
     }
