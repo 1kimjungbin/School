@@ -60,8 +60,27 @@ select * from salgrade;
 
 
 -- 4. 관리자(MANAGER)가 아닌 사원들의 이름, 월급, 직업을 출력하시오.
-
+    select ename, sal, job from emp where empno not in (select mgr from emp where mgr is not null);
 
 -- 5. 부서 테이블에 있는 부서 번호 중에서 사원 테이블에도 존재하는 부서 번호의 부서번호, 부서명, 부서위치를 출력하시오.
+    select deptno, dname, loc from dept where deptno in (select deptno from emp);
 
+-- 6. 직업과 직업별 토탈 월급을 출력하는데, 직업이 SALESMAN인 사원들의 토탈 월급보다 더 큰 값들만 출력하시오.
+    select sum(sal) from emp where job = 'SALESMAN';
+    
+    select job, sum(sal) from emp group by job having sum(sal) > 5600;
+
+-- 7. 이름과 월급과 순위를 출력하는데 순위가 1위인 사원들만 출력하시오 (월급 전체 1위 - 제일 많이 받는 사람)
+    select v.ename, v.sal, v.rank
+    from (select ename, sal, rank() over(order by sal desc) rank from emp) v
+    where v.rank = 1;
+    
+    select ename, sal, rank() over(order by sal desc) rank from emp;
+
+-- 8. 직업이 SALESMAN인 사원들의 이름과 월급을 출력하는데, 최대 월급과 최소 월급도 같이 출력하시오.
+    select ename, sal, (select max(sal) from emp where job = 'SALESMAN') max,
+    (select min(sal) from emp where job = 'SALESMAN') min
+    from emp where job = 'SALESMAN' group by ename, sal;
+    
+    select max(sal) from emp where job = 'SALESMAN';
 
