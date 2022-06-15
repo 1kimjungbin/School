@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cf::before, .cf::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .logo {
+    background-color: #888;
+    width: 300px;
+    height: 150px;
+    float: left;
+}
+
+#header .nav {
+    background-color: #777;
+    width: 300px;
+    height: 700px;
+}
+
+#banner {
+    position: relative;
+    bottom: 700px;
+    background-color: #666;
+    width: 900px;
+    height: 450px;
+    float: right;
+}
+
+#contents > div {
+    width: 300px;
+    height: 250px;
+    float: left;
+    position: relative;
+    bottom: 700px;
+    left: 300px;
+}
+
+#contents > div.cont1 {
+    background-color: #555;
+}
+
+#contents > div.cont2 {
+    background-color: #444;
+}
+
+#contents > div.cont3 {
+    background-color: #333;
+}
+
+
