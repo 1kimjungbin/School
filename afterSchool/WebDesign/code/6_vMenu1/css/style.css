@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+.cf::before, .cf::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+ul, li {
+    list-style: none;
+}
+
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#aside {
+    float: left;
+    width: 300px;
+    height: 850px;
+    background: #ccc;
+}
+#content {
+    float: left;
+    width: 900px;
+    height: 850px;
+    background: #ddd;
+}
+#aside .logo {
+    width: 300px;
+    height: 150px;
+    background: #999;
+}
+#aside .nav {
+    width: 300px;
+    height: 700px;
+    background: #888;
+}
+
+#aside .nav li {
+    text-align: center;
+    background-color: pink;
+}
+
+#aside .nav li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#aside .nav li a:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+#aside .nav li ul.submenu {
+    display: none;
+}
+
+#banner {
+    width: 900px;
+    height: 450px;
+    background: #777;
+}
+#contents > div {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#contents>div.cont1 {background: #666;}
+#contents>div.cont2 {background: #555;}
+#contents>div.cont3 {background: #444;}
+
+#footer>div {
+    float: left;
+}
+#footer>div.foot1 {
+    width: 200px;
+    height: 100px;
+    background: #333;
+}
+#footer>div.foot2 {
+    width: 700px;
+    height: 50px;
+    background: #222;
+}
+#footer>div.foot3 {
+    width: 700px;
+    height: 50px;
+    background: #111;
+}

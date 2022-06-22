@@ -1,6 +1,6 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     font-size: 24px;
     font-weight: bold;
     color: #fff;
@@ -14,77 +14,58 @@
 
 #wrap {
     width: 1200px;
-    height: 850px;
     margin: 0 auto;
 }
 
-#header {
-    float: left;
-}
-
 #header .logo {
-    background-color: #888;
-    width: 300px;
-    height: 150px;
     float: left;
+    width: 250px;
+    height: 100px;
+    background: #888;
 }
-
 #header .nav {
-    background-color: #777;
-    width: 300px;
-    height: 700px;
+    float: left;
+    width: 950px;
+    height: 100px;
+    background: #777;
 }
 
-#banner{
-    background-color: #666;
-    width: 900px;
-    height: 450px;
-    float: left;
-}
-
-#contents {
-    float: left;
+#banner {
+    width: 100%;
+    height: 300px;
+    background: #222;
 }
 
 #contents > div {
-    width: 300px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
     float: left;
 }
 
 #contents > div.cont1 {
     background-color: #555;
 }
-
 #contents > div.cont2 {
     background-color: #444;
 }
-
 #contents > div.cont3 {
     background-color: #333;
 }
 
-
-
 #footer > div {
+    height: 100px;
     float: left;
 }
 
 #footer > div.foot1 {
     width: 200px;
-    height: 100px;
-    background-color: #333;
+    background: #222;
 }
-
 #footer > div.foot2 {
-    width: 200px;
-    height: 100px;
-    background-color: #222;
+    width: 800px;
+    background: #111;
 }
-
 #footer > div.foot3 {
     width: 200px;
-    height: 100px;
-    background-color: #111;
+    background: #000;
 }
-
